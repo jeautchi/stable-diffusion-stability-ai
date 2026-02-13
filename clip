@@ -1,1 +1,6 @@
-pip install "setuptools<81"
+.\venv\Scripts\python.exe -m pip install --force-reinstall --no-cache-dir "setuptools==69.5.1" wheel
+.\venv\Scripts\python.exe -m pip install --no-build-isolation https://github.com/openai/CLIP/archive/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1.zip
+
+in webui-user
+set STABLE_DIFFUSION_REPO=https://github.com/joypaul162/Stability-AI-stablediffusion.git
+set STABLE_DIFFUSION_COMMIT_HASH=f16630a927e00098b524d687640719e4eb469b76
